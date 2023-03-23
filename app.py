@@ -5,7 +5,7 @@ from bson import ObjectId
 app = Flask(__name__)
 
 
-client = MongoClient('mongodb+srv://oneB:oneB@onea.ojn8ull.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://oneB:<passward>@onea.ojn8ull.mongodb.net/?retryWrites=true&w=majority')
 db = client.dbsparta
     
 
